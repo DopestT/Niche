@@ -1,0 +1,16 @@
+---
+const { title = "Niche Profit Blueprint" } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{title}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body style="font-family: system-ui; margin: 0;">
+    <main style="max-width: 900px; margin: auto; padding: 2rem;">
+      <slot />
+    </main>
+  </body>
+</html>
